@@ -228,6 +228,10 @@ App.controller('Main', function($scope, $http, $location, $timeout, ngAudio, LxN
     }).
     success(function(data, status, headers) {
       LxNotificationService.success('PATCH saved');
+      $location.search('subject', $scope.subject);
+      $location.search('predicate', $scope.predicate);
+      $location.search('object', $scope.object);
+      $location.search('graph', $scope.graph);
     }).
     error(function(data, status, headers) {
       LxNotificationService.error('could not save PATCH');
