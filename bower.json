@@ -1,0 +1,25 @@
+{
+  "name": "Patch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/linkeddata/patch",
+  "authors": [
+    "Melvin Carvalho <melvincarvalho@gmail.com>"
+  ],
+  "description": "Patch",
+  "license": "MIT",
+  "keywords": "webid, linked data, patch, Solid",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lumx": "~0.3.39",
+    "angular-ui": "~0.4.0",
+    "angular-audio": "~1.7.0"
+  }
+}

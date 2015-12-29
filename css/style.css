@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(fonts/roboto-light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(fonts/roboto-regular.ttf) format('truetype');
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  position: relative;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  line-height: 40px
+}
+
+.toolbar {
+  padding: 12px 5px 12px 5px;
+}
+
+.toolbar img {
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.absolute-center {
+  position: fixed;
+  width: 90%;
+  height: 80%;
+  left: 5%;
+  top: 30%;
+  text-align: center;
+}
+
+.align-center {
+  text-align: center!important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  position: relative;
+  height: auto; min-height: 100%;
+}
+
+
+.welcome {
+  min-height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-title {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 100px;
+  padding-top: 20px;
+  top: -20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.app-name {
+  position: relative;
+  top: 5px;
+}
+
+
+.grad-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+  background: rgb(180,221,180); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(180,221,180,1) 0%, rgba(131,199,131,1) 17%, rgba(82,177,82,1) 33%, rgba(0,138,0,1) 67%, rgba(0,87,0,1) 83%, rgba(0,36,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
