@@ -86,11 +86,7 @@ li {
 
 
 .grad-bg {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
-  background: rgb(180,221,180); /* Old browsers */
-  background: -moz-linear-gradient(45deg,  rgba(180,221,180,1) 0%, rgba(131,199,131,1) 17%, rgba(82,177,82,1) 33%, rgba(0,138,0,1) 67%, rgba(0,87,0,1) 83%, rgba(0,36,0,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  	/* Generated with http://gradient.quasi.ink */
+  	background-size: cover;
+  	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAACV0lEQVQ4Tz1UTY/TQAx9ticp///HIIGEuHDiwgXBit0FwSIO7BEQbcYf8DyFVk3SZMZ+X448ffu+PAJIoLIgVhAoMgJj2wATHO5QMSgKUsAYAxAgIpAo7NuOykR4QJ6/vy1370Xny4HKgHJDJtQMnglBdYP9dEJ5QlRgw7qgCHA6PUFF4vAD8uztTXGx7humB9wnoEYAUB4KfSB63jQRiOj1x3uC035CFQtOyIub28oslCqysh8kAO7ntSXrG4KUKIOymKCK0hRUDfu+45gHnJRffrjr1kEUjQZIbkiBKJDzgIoiMzDG3qhbuwiYCpxgyIYbBZBXd7dd0AlLDDMCUdV6xZxQsHChKItZU7ycz81gUMekm4VhoxnK6/sPDWxGLWokoqMXNQXUQu/ZG6DadPX/uVpPsw0+D8i7r/esi8t0RCWG7Ti7N30bo89edHlR8/aBbgFD6bR3k+w0COT+8aGOY0LEemN/RBsdkVB6pzk2umnx2TUugiVRI2YPJuDT40M1NTGmbd1kkeA1/2oXWWfB78ulg25q8FixYaj/FZZPj1+KHokqjmM5uhitxaTC0HcMbeDHz18dK66/HNlNuO7wXMg/Pj5UzICYtmbB7oxJkcoasyxHxNIoMjoqYht+Xbw1jaVTGyl33x9KryHmyHGEtAXh9C2HVQSz55n6JXRYUz574PBACOCdu4LcfPtcg/nqSBADI1qYc8KMuvKrrdPVMiglGooZnCrpFwTfB83izZePtZl2cLd9W852zgxmHJWe5OsU8cXAOec8A+2bCM4xV8G/IP8AUBnOp0RpsQkAAAAASUVORK5CYII=);
 }
